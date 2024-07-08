@@ -10,8 +10,8 @@
         "path": "./vue.json"
       },
       {
-        "language": "tex",
-        "path": "./tex.json"
+        "language": "plaintex",
+        "path": "./plaintex.json"
       }
     ]
   }
