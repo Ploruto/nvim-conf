@@ -11,20 +11,9 @@ local rep = require("luasnip.extras").rep
 
 
 return {
--- Examples of Greek letter snippets, autotriggered for efficiency
-s({trig=";a", snippetType="autosnippet"},
-  {
-    t("\\alpha"),
+  s({trig="tt", desc="Expands into something" },
+  fmta(
+      "\\texttt{<>} and I wrote: <>",
+      { i(1), rep(1)}
+    ))
   }
-),
-s({trig=";b", snippetType="autosnippet"},
-  {
-    t("\\beta"),
-  }
-),
-s({trig=";g", snippetType="autosnippet"},
-  {
-    t("\\gamma"),
-  }
-),
-}
