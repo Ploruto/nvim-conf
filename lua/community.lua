@@ -6,8 +6,16 @@
 
 ---@type LazySpec
 return {
-  -- "AstroNvim/astrocommunity",
-  -- { import = "astrocommunity.pack.lua" },
+  "AstroNvim/astrocommunity",
   -- import/override with your plugins folder
-  "rebelot/kanagawa.nvim"
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.bamboo-nvim" },
+  { import = "astrocommunity.colorscheme.cyberdream-nvim" },
+  { import = "astrocommunity.colorscheme.fluoromachine-nvim" },
+  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
+  { import = "astrocommunity.colorscheme.melange-nvim" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
+  { import = "astrocommunity.colorscheme.night-owl-nvim" },
+  { import = "astrocommunity.markdown-and-latex.vimtex" },
 }
